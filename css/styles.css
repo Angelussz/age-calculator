@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+:root{
+    --primary-purple: hsl(259, 100%, 65%);
+    --primary-light-red: hsl(0, 100%, 67%);
+    
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-off-white: hsl(0, 0%, 94%);
+    --neutral-light-grey: hsl(0, 0%, 86%);
+    --neutral-smokey-grey: hsl(0, 1%, 44%);
+    --neutral-off-black:hsl(0, 0%, 8%);
+
+    --font-size:32px;
+    --font-family:'Poppins', sans-serif;
+}
+.custom-bg-principal{
+    background-color: var(--neutral-light-grey);
+}
+
+.custom-main{
+    background-color: var(--neutral-white);
+    border-radius: 10px 10px 75px;
+    height: 75vh;
+    min-width: 285px;
+}
+.custom-size-inputs{
+    width: 70px;
+    height: 40px;
+    border: solid var(--neutral-light-grey) 1px;
+    border-radius: 5px;
+}
+
+.custom-label-input{
+    color: var(--neutral-smokey-grey);
+    font-family: var(--font-family);
+    font-weight: 400;
+
+    margin-bottom: 0;
+}
